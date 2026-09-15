@@ -16,7 +16,7 @@ services:
     environment:
       # if you are using m3u remote file
       # M3U_URL: https://example.com/iptvfile.m3u
-      M3U_URL: /root/iptv/iptv.m3u
+      M3U_URL: https://raw.githubusercontent.com/CO7EPICO/tv-net.ing/refs/heads/main/TvNetIng.m3u8
       # Port to expose the IPTVs endpoints
       PORT: 8080
       # Hostname or IP to expose the IPTVs endpoints (for machine not for docker)
